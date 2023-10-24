@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contenedor{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(39, 39, 39);
+}
+
+.contenedor .contenedor-puntaje{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+
+.contenedor .contenedor-tablero{
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+}
